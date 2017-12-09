@@ -3,10 +3,9 @@ import java.io.FileReader;
 import java.io.BufferedReader;
 
 public class BufferReaderDemo {
-
 	public static void main(String[] args) {
 		String text = null;
-		//User your own file path into the iflePath variable's value.
+		//User your own file path into the filePath variable's value.
 		String filePath = "/Users/imrankabir/Desktop/mysql_password.txt";
 		try {
 			BufferedReader br = new BufferedReader(new FileReader(filePath));
@@ -17,5 +16,4 @@ public class BufferReaderDemo {
 			e.printStackTrace();
 		}
 	}
-
 }
